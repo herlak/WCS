@@ -1,0 +1,164 @@
+--------------------------------------------------------
+sv_pure set to -1.
+--------------------------------------------------------
+[Source.Python] Loading...
+[Source.Python] Loaded successfully.
+Loaded plugin "addons/source-python"
+[SP] Chargement du plugin 'es_emulator'...
+Adding "/home/lakhherdar/CS.S/cstrike/addons/source-python/plugins/es_emulator/eventscripts" to sys.path.
+Adding "/home/lakhherdar/CS.S/cstrike/addons/source-python/plugins/es_emulator/eventscripts/_libs/python" to sys.path.
+Initializing console variables...
+Initializing console commands...
+Initializing logic...
+Initializing EventScripts...
+[EventScripts] Loaded esc
+[SP] Le plugin 'es_emulator' a été chargé avec succès.
+Network: IP 192.168.1.11, mode MP, dedicated Yes, ports 27015 SV / 27005 CL
+[SP] Chargement du plugin 'gungame'...
+  [GunGame] Initializing (version 1.3.0)...
+    [1/10] Parsing weapon orders...
+    [2/10] Creating events...
+    [3/10] Registering commands...
+    [4/10] Starting sound system...
+    [5/10] Loading database...
+    [6/10] Executing configuration files...
+    [7/10] Defining game rules...
+    [8/10] Gathering player settings...
+    [9/10] Importing game-specific functionality...
+    [10/10] Adding 'gungame' server tag...
+  [GunGame] Load completed. Restarting game...
+[SP] Le plugin 'gungame' a été chargé avec succès.
+[SP] Chargement du plugin 'wcs'...
+
+[SP] Une erreur s'est produite:
+Traceback (most recent call last):
+  File "../addons/source-python/packages/source-python/plugins/command.py", line 162, in load_plugin
+    plugin = self.manager.load(plugin_name)
+  File "../addons/source-python/packages/source-python/plugins/manager.py", line 194, in load
+    plugin._load()
+  File "../addons/source-python/packages/source-python/plugins/instance.py", line 74, in _load
+    self.module = import_module(self.import_name)
+  File "../addons/source-python/plugins/wcs/wcs.py", line 60, in <module>
+    from .core.config import cfg_bonus_xp
+  File "../addons/source-python/plugins/wcs/core/config/__init__.py", line 12, in <module>
+    from ..constants.info import info
+  File "../addons/source-python/plugins/wcs/core/constants/__init__.py", line 130, in <module>
+    data = load(inputfile)
+  File "../addons/source-python/Python3/json/__init__.py", line 299, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "../addons/source-python/Python3/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "../addons/source-python/Python3/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "../addons/source-python/Python3/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+
+json.decoder.JSONDecodeError: Expecting value: line 2 column 17 (char 18)
+
+
+(((**[SP] Impossible de charger le plugin 'wcs'**))).
+[EventScripts] Loaded wcs/races
+[EventScripts] Loaded wcs/races/warden
+[EventScripts] Loaded wcs/races/archmage_proudmoore
+[EventScripts] Loaded wcs/races/blood_mage
+[EventScripts] Loaded wcs/races/human_alliance
+[EventScripts] Loaded wcs/races/night_elves
+[EventScripts] Loaded wcs/races/orcish_horde
+[EventScripts] Loaded wcs/races/shadow_hunter
+[EventScripts] Loaded wcs/races/undead_scourge
+[EventScripts] Loaded wcs/races/crypt_lord
+[EventScripts] Loaded wcs/races/flame_predator
+[EventScripts] Loaded wcs/races/succubus_hunter
+[EventScripts] Loaded wcs/tools
+[EventScripts] Loaded wcs/tools/abilities
+[EventScripts] Loaded wcs/tools/abilities/warden
+[EventScripts] Loaded wcs/tools/abilities/healingwarden
+[EventScripts] Loaded wcs/tools/abilities/trap
+[EventScripts] Loaded wcs/tools/foreach
+[EventScripts] Loaded wcs/tools/nearcoord
+[EventScripts] Loaded wcs/tools/ultimates
+[EventScripts] Loaded wcs/tools/ultimates/default
+[EventScripts] Loaded wcs/tools/ultimates/default2
+[EventScripts] Loaded wcs/tools/xcommands
+[EventScripts] Loaded wcs/tools/trap
+ConVarRef dev_loadtime_map_start doesn't point to an existing ConVar
+maxplayers set to 16
+Initializing Steam libraries for secure Internet server
+[S_API FAIL] SteamAPI_Init() failed; SteamAPI_IsSteamRunning() failed.
+Modifying bin/steamclient_valve.so
+Setting breakpad minidump AppID = 240
+L-----------------------------------
+Calling BreakpadMiniDumpSystemInit
+Setting breakpad minidump AppID = 232330
+-------------------------------------------------------
+.
+[EventScripts Version Check] Server is up-to-date.
+L 08/12/2019 - 13:14:57: -------- Mapchange to gg_officeworld_v2 --------
+ConVarRef room_type doesn't point to an existing ConVar
+Executing dedicated server config file server.cfg
+Using map cycle file 'cfg/mapcycle.txt'.
+Set motd from file 'cfg/motd.txt'
+Set motd_text from file 'cfg/motd_text.txt'
+SV_ActivateServer: setting tickrate to 66.7
+Server is hibernating
+Chargement du plugin 'gg_dissolver'...
+Le plugin 'gg_dissolver' a été chargé avec succès.
+Chargement du plugin 'gg_deathmatch'...
+Le plugin 'gg_deathmatch' a été chargé avec succès.
+Chargement du plugin 'gg_scoreboard'...
+Le plugin 'gg_scoreboard' a été chargé avec succès.
+Chargement du plugin 'gg_earn_nade'...
+Le plugin 'gg_earn_nade' a été chargé avec succès.
+Chargement du plugin 'gg_buy_level'...
+Le plugin 'gg_buy_level' a été chargé avec succès.
+Chargement du plugin 'gg_winner_display'...
+Le plugin 'gg_winner_display' a été chargé avec succès.
+Chargement du plugin 'gg_projectile_kills'...
+Le plugin 'gg_projectile_kills' a été chargé avec succès.
+Chargement du plugin 'gg_winner_menu'...
+Le plugin 'gg_winner_menu' a été chargé avec succès.
+Chargement du plugin 'gg_dead_strip'...
+Le plugin 'gg_dead_strip' a été chargé avec succès.
+Chargement du plugin 'gg_knife_steal'...
+Le plugin 'gg_knife_steal' a été chargé avec succès.
+Chargement du plugin 'gg_turbo'...
+Le plugin 'gg_turbo' a été chargé avec succès.
+Chargement du plugin 'gg_knife_advanced'...
+Le plugin 'gg_knife_advanced' a été chargé avec succès.
+Chargement du plugin 'gg_disable_objectives'...
+Le plugin 'gg_disable_objectives' a été chargé avec succès.
+Connection to Steam servers successful.
+   Public IP is xxx.xxx.xx.227.
+Assigned anonymous gameserver Steam ID [A:1:3148546057:13089].
+VAC secure mode is activated.
+[GunGame] Weapon order: Default
+
+[GunGame] +-------+------------+-------------+
+[GunGame] | Level | multi_kill |    Weapon   |
+[GunGame] +-------+------------+-------------+
+[GunGame] |   1   |     2      |       glock |
+[GunGame] |   2   |     2      |         usp |
+[GunGame] |   3   |     2      |        p228 |
+[GunGame] |   4   |     2      |      deagle |
+[GunGame] |   5   |     2      |   fiveseven |
+[GunGame] |   6   |     2      |       elite |
+[GunGame] |   7   |     2      |          m3 |
+[GunGame] |   8   |     2      |      xm1014 |
+[GunGame] |   9   |     2      |         tmp |
+[GunGame] |   10  |     2      |       mac10 |
+[GunGame] |   11  |     2      |     mp5navy |
+[GunGame] |   12  |     2      |       ump45 |
+[GunGame] |   13  |     2      |         p90 |
+[GunGame] |   14  |     2      |       galil |
+[GunGame] |   15  |     2      |       famas |
+[GunGame] |   16  |     2      |        ak47 |
+[GunGame] |   17  |     2      |       scout |
+[GunGame] |   18  |     2      |        m4a1 |
+[GunGame] |   19  |     2      |       sg552 |
+[GunGame] |   20  |     2      |         aug |
+[GunGame] |   21  |     2      |        m249 |
+[GunGame] |   22  |     2      |         awp |
+[GunGame] |   23  |     2      |       sg550 |
+[GunGame] |   24  |     1      |   hegrenade |
+[GunGame] |   25  |     1      |       knife |
+[GunGame] +-------+------------+-------------+
